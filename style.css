@@ -1,0 +1,40 @@
+marquee {
+    background-color: aqua;
+}
+
+body {
+    text-align: center;
+}
+
+.row::after {
+    content: none;
+    clear: both;
+    display: table;
+}
+
+.lop {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.knee {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.knee i {
+    float: right;
+}
+
+#wha {
+    padding-bottom: 10px;
+}
+#wha img {
+height , width: 150px;
+}
